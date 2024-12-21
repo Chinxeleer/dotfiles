@@ -1,0 +1,115 @@
+16:36:42.982: Platform: Wayland
+16:36:42.982: CPU Name: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+16:36:42.982: CPU Speed: 1799.995MHz
+16:36:42.982: Physical Cores: 4, Logical Cores: 8
+16:36:42.982: Physical Memory: 15744MB Total, 6820MB Free
+16:36:42.982: Kernel Version: Linux 6.11.6-arch1-1
+16:36:42.982: Distribution: "Arch Linux" Unknown
+16:36:42.982: Desktop Environment: Hyprland ()
+16:36:42.982: Session Type: wayland
+16:36:42.986: Qt Version: 6.8.0 (runtime), 6.7.2 (compiled)
+16:36:42.986: Portable mode: false
+16:36:43.073: OBS 30.2.1-1 (linux)
+16:36:43.073: ---------------------------------
+16:36:43.073: ---------------------------------
+16:36:43.073: audio settings reset:
+16:36:43.073: 	samples per sec: 48000
+16:36:43.073: 	speakers:        2
+16:36:43.073: 	max buffering:   960 milliseconds
+16:36:43.073: 	buffering type:  dynamically increasing
+16:36:43.088: ---------------------------------
+16:36:43.088: Initializing OpenGL...
+16:36:43.088: Using EGL/Wayland
+16:36:43.164: Initialized EGL 1.5
+16:36:43.204: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+16:36:43.204: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.2.6-arch1.1, shading language 4.60
+16:36:43.279: ---------------------------------
+16:36:43.279: video settings reset:
+16:36:43.279: 	base resolution:   3000x2000
+16:36:43.279: 	output resolution: 1088x726
+16:36:43.279: 	downscale filter:  Bicubic
+16:36:43.279: 	fps:               30/1
+16:36:43.279: 	format:            NV12
+16:36:43.279: 	YUV mode:          Rec. 709/Full
+16:36:43.279: NV12 texture support enabled
+16:36:43.279: P010 texture support not available
+16:36:43.304: Audio monitoring device:
+16:36:43.304: 	name: Default
+16:36:43.304: 	id: default
+16:36:43.304: ---------------------------------
+16:36:43.318: Failed to load 'en-US' text for module: 'decklink-captions.so'
+16:36:43.334: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+16:36:43.348: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+16:36:43.348: Failed to initialize module 'decklink.so'
+16:36:43.710: [pipewire] No capture sources available
+16:36:43.750: v4l2loopback not installed, virtual camera not registered
+16:36:43.936: VAAPI: API version 1.22
+16:36:43.936: FFmpeg VAAPI H264 encoding supported
+16:36:43.938: FFmpeg VAAPI AV1 encoding not supported
+16:36:43.940: FFmpeg VAAPI HEVC encoding supported
+16:36:44.167: ---------------------------------
+16:36:44.167:   Loaded Modules:
+16:36:44.167:     wlrobs.so
+16:36:44.168:     text-freetype2.so
+16:36:44.168:     rtmp-services.so
+16:36:44.168:     obs-x264.so
+16:36:44.168:     obs-webrtc.so
+16:36:44.168:     obs-vst.so
+16:36:44.168:     obs-transitions.so
+16:36:44.168:     obs-qsv11.so
+16:36:44.168:     obs-outputs.so
+16:36:44.168:     obs-libfdk.so
+16:36:44.168:     obs-filters.so
+16:36:44.168:     obs-ffmpeg.so
+16:36:44.168:     linux-v4l2.so
+16:36:44.168:     linux-pulseaudio.so
+16:36:44.168:     linux-pipewire.so
+16:36:44.168:     linux-jack.so
+16:36:44.168:     linux-capture.so
+16:36:44.168:     linux-alsa.so
+16:36:44.168:     image-source.so
+16:36:44.168:     frontend-tools.so
+16:36:44.168:     decklink-output-ui.so
+16:36:44.168:     decklink-captions.so
+16:36:44.168: ---------------------------------
+16:36:44.168: ---------------------------------
+16:36:44.168: Available Encoders:
+16:36:44.168:   Video Encoders:
+16:36:44.168: 	- ffmpeg_svt_av1 (SVT-AV1)
+16:36:44.168: 	- ffmpeg_aom_av1 (AOM AV1)
+16:36:44.168: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+16:36:44.168: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+16:36:44.168: 	- obs_qsv11_v2 (QuickSync H.264)
+16:36:44.168: 	- obs_qsv11_hevc (QuickSync HEVC)
+16:36:44.168: 	- obs_x264 (x264)
+16:36:44.168:   Audio Encoders:
+16:36:44.168: 	- ffmpeg_aac (FFmpeg AAC)
+16:36:44.168: 	- ffmpeg_opus (FFmpeg Opus)
+16:36:44.168: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+16:36:44.168: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+16:36:44.168: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+16:36:44.168: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+16:36:44.168: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+16:36:44.168: 	- libfdk_aac (libfdk AAC)
+16:36:44.168: ==== Startup complete ===============================================
+16:36:44.208: All scene data cleared
+16:36:44.209: ------------------------------------------------
+16:36:44.216: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.6) 15.0.0'
+16:36:44.217: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+16:36:44.217: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+16:36:44.217: [Loaded global audio device]: 'Desktop Audio'
+16:36:44.218: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.6) 15.0.0'
+16:36:44.218: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+16:36:44.218: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+16:36:44.218: [Loaded global audio device]: 'Mic/Aux'
+16:36:44.223: Switched to scene 'Scene'
+16:36:44.223: ------------------------------------------------
+16:36:44.223: Loaded scenes:
+16:36:44.223: - scene 'Scene':
+16:36:44.223:     - source: 'Wayland output(scpy)' (wlrobs-scpy)
+16:36:44.223: ------------------------------------------------
+16:36:44.631: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+16:36:44.687: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+16:36:52.339: User Removed source 'Wayland output(scpy)' (wlrobs-scpy) from scene 'Scene'
+16:36:53.957: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+16:36:57.786: User added source 'Wayland output(dmabuf)' (wlrobs-dmabuf) to scene 'Scene'

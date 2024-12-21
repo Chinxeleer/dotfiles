@@ -1,0 +1,9 @@
+[user]
+	name = chinxeleer
+	email = blessingeleer.programming@gmail.com
+[core]
+	editor = neovim
+[init]
+	defaultBranch = main
+[color]
+	ui = true
