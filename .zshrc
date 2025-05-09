@@ -123,3 +123,10 @@ export PATH=$PATH:/home/chinxeleer/.spicetify
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - zsh)"
+
+# bun completions
+[ -s "/home/chinxeleer/.bun/_bun" ] && source "/home/chinxeleer/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
